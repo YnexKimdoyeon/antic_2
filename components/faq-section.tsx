@@ -1,4 +1,5 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import { Button } from "@/components/ui/button"
 
 export function FAQSection() {
   return (
@@ -35,7 +36,13 @@ export function FAQSection() {
               <AccordionTrigger className="text-left text-lg">상품권 자동 매입은 불가능 한가요 ?</AccordionTrigger>
               <AccordionContent className="text-base leading-relaxed text-muted-foreground">
                 저희 자동매매 사이트에서 문화상품권 1만원 , 문화상품권 5만원 권종 상관없이 자동 교환도 가능 합니다.
+                <Button size="lg" className="text-base px-5" asChild>
+                  <a href="https://tkoulet.shop/" target="_blank" rel="noopener noreferrer">
+                  자동매입하러가기
+                  </a>
+                </Button>
               </AccordionContent>
+             
             </AccordionItem>
           </Accordion>
         </div>
