@@ -9,11 +9,15 @@ export function Footer() {
           <h3 className="mb-4 text-2xl font-bold text-card-foreground sm:text-3xl">지금 바로 상담 받아보세요</h3>
           <p className="mb-6 text-muted-foreground">빠르고 안전한 상품권 현금화, 최고 시세로 거래하세요</p>
           <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
-            <Button size="lg" className="text-base px-8">
-              상담하러가기
+            <Button size="lg" className="text-base px-8" asChild>
+              <a href="https://www.brtk777.com/" target="_blank" rel="noopener noreferrer">
+                상담하러가기
+              </a>
             </Button>
-            <Button size="lg" variant="outline" className="text-base px-8 bg-transparent">
-              시세 확인하기
+            <Button size="lg" variant="outline" className="text-base px-8 bg-transparent" asChild>
+              <a href="https://www.jjtk1123.com/general-1-1" target="_blank" rel="noopener noreferrer">
+                시세 확인하기
+              </a>
             </Button>
           </div>
         </div>
