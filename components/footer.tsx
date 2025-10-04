@@ -46,7 +46,7 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="mt-8 border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          <p>© 2025 ○○○○. All rights reserved.</p>
+          <p>© 2025 상품권성지. All rights reserved.</p>
         </div>
       </div>
     </footer>
