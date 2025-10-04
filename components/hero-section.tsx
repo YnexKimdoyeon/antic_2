@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight, TrendingUp } from "lucide-react"
 import Image from "next/image"
+import { getLinkUrl, getLinkLabel } from "@/lib/links"
 
 export function HeroSection() {
   return (
@@ -26,14 +27,14 @@ export function HeroSection() {
 
               <div className="flex flex-col gap-4 sm:flex-row lg:justify-start justify-center">
                 <Button size="lg" className="text-base sm:text-lg px-8 py-6" asChild>
-                  <a href="https://www.brtk777.com/" target="_blank" rel="noopener noreferrer">
-                    상담하러가기
+                  <a href={getLinkUrl("CONSULTATION")} target="_blank" rel="noopener noreferrer">
+                    {getLinkLabel("CONSULTATION")}
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" className="text-base sm:text-lg px-8 py-6 bg-transparent" asChild>
-                  <a href="https://www.jjtk1123.com/general-1-1" target="_blank" rel="noopener noreferrer">
-                    시세 확인하기
+                  <a href={getLinkUrl("PRICE_CHECK")} target="_blank" rel="noopener noreferrer">
+                    {getLinkLabel("PRICE_CHECK")}
                   </a>
                 </Button>
               </div>

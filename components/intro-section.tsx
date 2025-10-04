@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Coins, TrendingUp, Shield, Zap } from "lucide-react"
+import { getLinkUrl, getLinkLabel } from "@/lib/links"
 
 export function IntroSection() {
   return (
@@ -82,13 +83,13 @@ export function IntroSection() {
 
           <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
             <Button size="lg" className="text-base px-8" asChild>
-              <a href="https://www.brtk777.com/" target="_blank" rel="noopener noreferrer">
-                상담하러가기
+              <a href={getLinkUrl("CONSULTATION")} target="_blank" rel="noopener noreferrer">
+                {getLinkLabel("CONSULTATION")}
               </a>
             </Button>
             <Button size="lg" variant="outline" className="text-base px-8 bg-transparent" asChild>
-              <a href="https://www.jjtk1123.com/general-1-1" target="_blank" rel="noopener noreferrer">
-                시세 확인하기
+              <a href={getLinkUrl("PRICE_CHECK")} target="_blank" rel="noopener noreferrer">
+                {getLinkLabel("PRICE_CHECK")}
               </a>
             </Button>
           </div>

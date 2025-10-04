@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { BookOpen, Building2, Coffee } from "lucide-react"
 import Image from "next/image"
+import { getLinkUrl, getLinkLabel } from "@/lib/links"
 
 export function ProductsSection() {
   return (
@@ -76,13 +77,13 @@ export function ProductsSection() {
                 </ul>
                 <div className="flex flex-col gap-3">
                   <Button className="w-full" asChild>
-                    <a href="https://www.brtk777.com/" target="_blank" rel="noopener noreferrer">
-                      상담하러가기
+                    <a href={getLinkUrl("CONSULTATION")} target="_blank" rel="noopener noreferrer">
+                      {getLinkLabel("CONSULTATION")}
                     </a>
                   </Button>
                   <Button variant="outline" className="w-full bg-transparent" asChild>
-                    <a href="https://www.jjtk1123.com/general-1-1" target="_blank" rel="noopener noreferrer">
-                      매입 시세 보러가기
+                    <a href={getLinkUrl("PRICE_CHECK")} target="_blank" rel="noopener noreferrer">
+                      {getLinkLabel("PRICE_CHECK", "price")}
                     </a>
                   </Button>
                 </div>
@@ -149,13 +150,13 @@ export function ProductsSection() {
                 </ul>
                 <div className="flex flex-col gap-3">
                   <Button className="w-full" asChild>
-                    <a href="https://www.brtk777.com/" target="_blank" rel="noopener noreferrer">
-                      상담하러가기
+                    <a href={getLinkUrl("CONSULTATION")} target="_blank" rel="noopener noreferrer">
+                      {getLinkLabel("CONSULTATION")}
                     </a>
                   </Button>
                   <Button variant="outline" className="w-full bg-transparent" asChild>
-                    <a href="https://www.jjtk1123.com/general-1-1" target="_blank" rel="noopener noreferrer">
-                      매입 시세 보러가기
+                    <a href={getLinkUrl("PRICE_CHECK")} target="_blank" rel="noopener noreferrer">
+                      {getLinkLabel("PRICE_CHECK", "price")}
                     </a>
                   </Button>
                 </div>
@@ -198,13 +199,13 @@ export function ProductsSection() {
                 </ul>
                 <div className="flex flex-col gap-3">
                   <Button className="w-full" asChild>
-                    <a href="https://www.brtk777.com/" target="_blank" rel="noopener noreferrer">
-                      상담하러가기
+                    <a href={getLinkUrl("CONSULTATION")} target="_blank" rel="noopener noreferrer">
+                      {getLinkLabel("CONSULTATION")}
                     </a>
                   </Button>
                   <Button variant="outline" className="w-full bg-transparent" asChild>
-                    <a href="https://www.jjtk1123.com/general-1-1" target="_blank" rel="noopener noreferrer">
-                      매입 시세 보러가기
+                    <a href={getLinkUrl("PRICE_CHECK")} target="_blank" rel="noopener noreferrer">
+                      {getLinkLabel("PRICE_CHECK", "price")}
                     </a>
                   </Button>
                 </div>
