@@ -7,7 +7,7 @@ export const LINKS = {
   CONSULTATION: {
     url: "https://www.brtk777.com/",
     label: "상담하러가기",
-    description: "상품권 현금화 상담 페이지"
+    description: "상품권 상담 페이지"
   },
   
   // 시세 확인 관련 링크
