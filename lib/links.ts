@@ -5,7 +5,7 @@
 export const LINKS = {
   // 상담 관련 링크
   CONSULTATION: {
-    url: "https://www.untactsave.com/",
+    url: "https://www.brtk777.com/",
     label: "상담하러가기",
     description: "상품권 상담 페이지"
   },
