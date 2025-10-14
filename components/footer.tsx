@@ -8,7 +8,7 @@ export function Footer() {
         {/* CTA Section */}
         <div className="mb-12 text-center">
           <h3 className="mb-4 text-2xl font-bold text-card-foreground sm:text-3xl">지금 바로 상담 받아보세요</h3>
-          <p className="mb-6 text-muted-foreground">빠르고 안전한 상품권 현금화, 최고 시세로 거래하세요</p>
+          <p className="mb-6 text-muted-foreground">빠르고 안전한 상품권 매입, 최고 시세로 거래하세요</p>
           <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
             <Button size="lg" className="text-base px-8" asChild>
               <a href={getLinkUrl("CONSULTATION")} target="_blank" rel="noopener noreferrer">

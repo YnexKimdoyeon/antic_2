@@ -16,7 +16,7 @@ export function IntroSection() {
             <CardContent className="p-6 md:p-8">
               <div className="space-y-4 text-base md:text-lg leading-relaxed text-card-foreground">
                 <p>
-                  <strong className="text-primary">상품권 현금화, 상품권 재테크란?</strong>
+                  <strong className="text-primary">상품권 매입, 상품권 재테크란?</strong>
                 </p>
                 <p>
                   각종 쇼핑몰에서 휴대폰 결제 혹은 신용카드 결제 혜택, 할인 행사기간에 맞춰 저렴하게 상품권을 구매한
@@ -46,7 +46,7 @@ export function IntroSection() {
                   <Zap className="h-6 w-6 text-primary" />
                 </div>
                 <h3 className="font-semibold text-card-foreground">빠른 처리</h3>
-                <p className="mt-2 text-sm text-muted-foreground">5분 내 현금화</p>
+                <p className="mt-2 text-sm text-muted-foreground">5분 내 매입</p>
               </CardContent>
             </Card>
 

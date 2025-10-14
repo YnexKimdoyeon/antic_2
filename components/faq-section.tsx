@@ -12,9 +12,9 @@ export function FAQSection() {
 
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
-              <AccordionTrigger className="text-left text-lg">상품권 현금화는 합법인가요?</AccordionTrigger>
+              <AccordionTrigger className="text-left text-lg">상품권 매입은 합법인가요?</AccordionTrigger>
               <AccordionContent className="text-base leading-relaxed text-muted-foreground">
-                상품권 현금화 자체는 불법이 아니며, 정상적인 거래를 통해 안전하게 이용 가능합니다.
+                상품권 매입 자체는 불법이 아니며, 정상적인 거래를 통해 안전하게 이용 가능합니다.
               </AccordionContent>
             </AccordionItem>
 
@@ -26,9 +26,9 @@ export function FAQSection() {
             </AccordionItem>
 
             <AccordionItem value="item-3">
-              <AccordionTrigger className="text-left text-lg">현금화까지 소요되는 시간은?</AccordionTrigger>
+              <AccordionTrigger className="text-left text-lg">매입까지 소요되는 시간은?</AccordionTrigger>
               <AccordionContent className="text-base leading-relaxed text-muted-foreground">
-                보통 빠르면 5분 내외, 상품권 종류에 따라 즉시 현금화 가능합니다.
+                보통 빠르면 5분 내외, 상품권 종류에 따라 즉시 매입 가능합니다.
               </AccordionContent>
             </AccordionItem>
             

@@ -12,7 +12,7 @@ export function HeroSection() {
             <div className="text-center lg:text-left">
               <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-2 text-sm font-medium text-primary">
                 <TrendingUp className="h-4 w-4" />
-                <span>신뢰할 수 있는 상품권 현금화 서비스</span>
+                <span>신뢰할 수 있는 상품권 매입 서비스</span>
               </div>
 
               <h1 className="mb-6 text-balance text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl">
@@ -22,7 +22,7 @@ export function HeroSection() {
               <p className="mb-10 text-pretty text-lg text-muted-foreground sm:text-xl leading-relaxed">
                 구글 기프트카드 · 컬쳐랜드 · 도서상품권 <br />스타벅스 · 백화점 상품권까지!
                 <br />
-                빠르고 안전한 현금화 서비스
+                빠르고 안전한 매입 서비스
               </p>
 
               <div className="flex flex-col gap-4 sm:flex-row lg:justify-start justify-center">
