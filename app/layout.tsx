@@ -42,6 +42,11 @@ export default function RootLayout({
             gtag('config', 'G-4TCLTC8546');
           `}
         </Script>
+    <script src="https://karrot-pixel.business.daangn.com/0.4/karrot-pixel.umd.js"></script>
+    <script>
+      window.karrotPixel.init('1760429918291633001');
+      window.karrotPixel.track('ViewPage');
+    </script> 
       </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} antialiased`}>
         <Suspense fallback={null}>{children}</Suspense>
