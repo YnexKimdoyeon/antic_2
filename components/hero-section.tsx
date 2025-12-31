@@ -16,7 +16,7 @@ export function HeroSection() {
               </div>
 
               <h1 className="mb-6 text-balance text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl">
-                상품권 매입 • 재테크
+                상품권 매입
               </h1>
 
               <p className="mb-10 text-pretty text-lg text-muted-foreground sm:text-xl leading-relaxed">

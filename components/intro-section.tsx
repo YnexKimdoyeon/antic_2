@@ -9,14 +9,14 @@ export function IntroSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h2 className="mb-6 text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl md:text-5xl text-center">
-          상품권 매입• 상품권 재테크란 ? 
+          상품권 매입이란?
           </h2>
 
           <Card className="mb-8">
             <CardContent className="p-6 md:p-8">
               <div className="space-y-4 text-base md:text-lg leading-relaxed text-card-foreground">
                 <p>
-                  <strong className="text-primary">상품권 매입, 상품권 재테크란?</strong>
+                  <strong className="text-primary">상품권 매입이란?</strong>
                 </p>
                 <p>
                   각종 쇼핑몰에서 휴대폰 결제 혹은 신용카드 결제 혜택, 할인 행사기간에 맞춰 저렴하게 상품권을 구매한
