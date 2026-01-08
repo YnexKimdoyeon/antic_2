@@ -20,9 +20,9 @@ export const LINKS = {
 
 // 새 섹션에서 사용할 예시 링크 모음
 export const links = {
-  autoBuy: "https://example.com/auto-buy",
-  priceCheck: "https://example.com/price-check",
-  purchase: "https://example.com/purchase",
+  autoBuy: "https://tkoulet.shop/",
+  priceCheck: "https://www.jjtk1123.com/general-1-1",
+  purchase: "https://www.untactsave.com/",
 } as const;
 
 // 링크 타입 정의
