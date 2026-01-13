@@ -8,7 +8,7 @@ import Script from "next/script"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "상품권 매입 · 컨텐츠 이용료 매입 전문 | 빠르고 안전한 서비스",
+  title: "상품권 매입 전문 | 빠르고 안전한 서비스",
   description:
     "구글 기프트카드, 컬쳐랜드, 도서상품권, 스타벅스, 백화점 상품권까지! 빠르고 안전한 상품권 매입 서비스. 최고 시세율 보장.",
   keywords:
